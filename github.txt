@@ -1,0 +1,28 @@
+Github Advance Workshop
+git stash
+git stach -u (with untracked files)
+git stach -a 
+git stach pop
+
+git log --oneline (check script is executed properly)
+
+review records of changes (switches, resets, rebase and commits):
+git log
+git reflog
+
+undo commit:
+git reset (for not push changes)
+git revert (for push changes)
+
+git reset + git log (remove branch)
+*remember to be an existing branch before delete
+
+git reset + git reflog (recover previous version)
+
+<commit-id> needs only first 8 characters. instead of writing the full commit id
+git reset --soft <commit-id> (undo commit, keep staged files and changes intact)
+git reset <commit-id> (undo changes and unstaged files but keep changes)
+git reset --hard <commit-id> (remove commit and all changes)
+
+git revert --no-edit <commit-id> (create a new commit that undo changes while keeping full history)
+
