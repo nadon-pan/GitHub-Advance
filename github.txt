@@ -1,1 +1,7 @@
 Github Advance Workshop
+git stash
+git stach -u (with untracked files)
+git stach -a 
+git stach pop
+
+git log --oneline (check script is executed properly)
