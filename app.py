@@ -6,3 +6,6 @@ def main():
 
 if __name__ == "__main__":
     main()
+
+def greet_uppercase(name):
+    return greet(name).upper()
